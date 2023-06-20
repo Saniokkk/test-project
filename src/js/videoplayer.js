@@ -1,17 +1,17 @@
 // Інінціалізація програвача
 const player = new Plyr('#features-player');
 
-const mobileImage = '/test-project/assets/howmade-mobile.jpg';
-const mobileImage2x = '/test-project/assets/howmade-mobile@2x.jpg';
-const mobileImage3x = '/test-project/assets/howmade-mobile@3x.jpg';
+import mobileImage from '../images/howmade/howmade-mobile.jpg';
+import mobileImage2x from '../images/howmade/howmade-mobile@2x.jpg';
+import mobileImage3x from '../images/howmade/howmade-mobile@3x.jpg';
 
-const tabletImage = '/test-project/assets/howmade-tablet.jpg';
-const tabletImage2x = '/test-project/assets/howmade-tablet@2x.jpg';
-const tabletImage3x = '/test-project/assets/howmade-tablet@3x.jpg';
+import tabletImage from '../images/howmade/howmade-tablet.jpg';
+import tabletImage2x from '../images/howmade/howmade-tablet@2x.jpg';
+import tabletImage3x from '../images/howmade/howmade-tablet@3x.jpg';
 
-const desktopImage = '/test-project/assets/howmade-desktop.jpg';
-const desktopImage2x = '/test-project/assets/howmade-desktop@2x.jpg';
-const desktopImage3x = '/test-project/assets/howmade-desktop@3x.jpg';
+import desktopImage from '../images/howmade/howmade-desktop.jpg';
+import desktopImage2x from '../images/howmade/howmade-desktop@2x.jpg';
+import desktopImage3x from '../images/howmade/howmade-desktop@3x.jpg';
 
 if (window.innerWidth >= 1200 && window.devicePixelRatio >= 3) {
   player.poster = desktopImage3x;
